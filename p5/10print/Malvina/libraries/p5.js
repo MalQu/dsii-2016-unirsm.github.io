@@ -9842,9 +9842,7 @@ p5.Color._parseInputs = function() {
       return Math.max(Math.min(value, 1), 0);
     });
 
-  } else {
-    throw new Error (arguments + 'is not a valid color representation.');
-  }
+  } 
 
   return results;
 };
